@@ -103,3 +103,40 @@ button {
 
 button:hover {
     background-color: #0056
+}
+
+/* Webpage 3: Search Results Page */
+body.search-results-page {
+    background-image: url(search-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the retrieved images container */
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Style each image container */
+.image {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
