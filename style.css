@@ -37,7 +37,7 @@ header {
 
 /* Additional styling for hover effect */
 .navigation-box ul li a:hover {
-    color: #007bff;
+    color: #808080;
 }
 
 /* Webpage 2: Photo Upload Page */
@@ -107,7 +107,7 @@ button:hover {
 
 /* Webpage 3: Search Results Page */
 body.search-results-page {
-    background-image: url(search-bg.jpg);
+    background-image: url(bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
