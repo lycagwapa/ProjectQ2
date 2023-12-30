@@ -40,6 +40,15 @@ header {
     color: #808080;
 }
 
+/*Webpage 1: Home Page*/
+body.home-page {
+    background-image: url(bgg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+    background-attachment: fixed;
+}
+
 /* Webpage 2: Photo Upload Page */
 body.upload-page {
     background-image: url(bg2.jpg);
