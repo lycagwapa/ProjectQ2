@@ -1,7 +1,7 @@
 /* styles.css */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: lucida console, verdana;
     margin: 0;
     padding: 0;
 }
@@ -42,8 +42,17 @@ header {
     color: #007bff;
 }
 
-/* Webpage 2: Photo Upload Page */
-body.upload-page {
+/*Webpage 1: Home Page*/
+body.index-page {
+    background-image: url(bgg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Webpage 2: Tutorial Page */
+body.tutorial-page {
     background-image: url(bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,13 +118,31 @@ button:hover {
 
 /* Webpage 3: Search Results Page */
 body.search-results-page {
-    background-image: url(search-bg.jpg);
+    background-image: url(bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: lucida console, verdana;
+}
+
+*/Webpage 4: About Us Page*/
+body.about-us-page {
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+*/Webpage 5: Privacy Policy Page*/
+body.privacy-policy-page {
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 /* Style the retrieved images container */
