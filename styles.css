@@ -44,7 +44,7 @@ header {
 
 /*Webpage 1: Home Page*/
 body.index-page {
-    background-image: url(bgg.jpg);
+    background-color: #ababab
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -53,7 +53,7 @@ body.index-page {
 
 /* Webpage 2: Tutorial Page */
 body.tutorial-page {
-    background-image: url(bg2.jpg);
+    background-color: #ababab;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -106,19 +106,20 @@ input[type="text"] {
 
 button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #3d3d3d;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #000000;
+    color: #fff;
 }
 
 /* Webpage 3: Search Results Page */
 body.search-results-page {
-    background-image: url(bg2.jpg);
+    background-color: #ababab;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -129,7 +130,7 @@ body.search-results-page {
 
 */Webpage 4: About Us Page*/
 body.about-us-page {
-    background-image: url(bg2.jpg);
+    background-color: #ababab;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -138,7 +139,7 @@ body.about-us-page {
 
 */Webpage 5: Privacy Policy Page*/
 body.privacy-policy-page {
-    background-image: url(bg2.jpg);
+    background-color: #ababab;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -192,12 +193,12 @@ footer {
 
 .login-section button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #727272;
     color: #fff;
-    border: none;
+    border: 1px solid black;
     cursor: pointer;
 }
 
 .login-section button:hover {
-    background-color: #0056b3;
+    background-color: #393939;
 }
