@@ -152,7 +152,7 @@ button:hover {
 
 /* Webpage 3: Search Results Page */
 body.search-results-page {
-    background-color: #ababab;
+    background-color: #fff;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
