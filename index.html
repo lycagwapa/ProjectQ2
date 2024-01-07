@@ -9,32 +9,56 @@
 <body>
     <header>
         <h1>Welcome to Memoria</h1>
-        <nav class="navigation-box">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="tutorial.html">Tutorial</a></li>
-                <li><a href="search-results.html">Search Results</a></li>
-                <li><a href="about-us.html">About Us</a></li>
-                <li><a href="privacy-policy.html">Privacy Policy</a></li>
-            </ul>
-        </nav>
+    </header>
 
-        <!-- Login Section -->
-        <div class="login-section">
+    <main>
+        <!-- Your main content -->
+        <h2>Recent Memories</h2>
+        <!-- Display recent memories here -->
+
+        <!-- Sign-up form -->
+        <div class="form-container">
+            <h3>Sign Up</h3>
             <form>
-                <label for="username">Username:</label>
-                <input type="text" id="username" name="username" placeholder="Your username">
+                <label for="signup-username">Username:</label>
+                <input type="text" id="signup-username" name="signup-username" required>
 
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" placeholder="Your password">
+                <label for="signup-password">Password:</label>
+                <input type="password" id="signup-password" name="signup-password" required>
+
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+
+        <!-- Login form -->
+        <div class="form-container">
+            <h3>Login</h3>
+            <form>
+                <label for="login-username">Username:</label>
+                <input type="text" id="login-username" name="login-username" required>
+
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="login-password" required>
 
                 <button type="submit">Login</button>
             </form>
         </div>
-    </header>
+
+        <!-- Search form -->
+        <div class="form-container">
+            <h3>Search Memories</h3>
+            <form>
+                <label for="search-keywords">Keywords:</label>
+                <input type="text" id="search-keywords" name="search-keywords" required>
+
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </main>
 
     <footer>
         <p>&copy; 2023 Memoria. All rights reserved.</p>
     </footer>
 </body>
 </html>
+
