@@ -75,6 +75,34 @@ header {
     color: #828282;
 }
 
+.social-icons {
+    margin-top: 20px;
+}
+
+/* Social icon sprite */
+.icon {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-image: url('bg2.jpg'); /* Replace with your sprite image */
+    background-repeat: no-repeat;
+}
+
+/* Positioning for Instagram icon */
+.instagram {
+    background-position: 0 0;
+}
+
+/* Positioning for Facebook icon */
+.facebook {
+    background-position: -32px 0;
+}
+
+/* Hover effect for social icons */
+.icon:hover {
+    opacity: 0.8;
+}
+
 /*Webpage 1: Home Page*/
 body.index-page {
     background-color: #ababab
