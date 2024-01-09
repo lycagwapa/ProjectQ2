@@ -81,7 +81,21 @@ body {
     background-image: url("webbg.jpg");
 }
 
-/* Add styling for other webpages as needed */
+.tut-page {
+    background-image: url("webbg.jpg");
+}
+
+.search-page{
+    background-image: url("webbg.jpg");
+}
+
+.about-page{
+    background-image: url("webbg.jpg");
+}
+
+.pripol-page{
+    background-image: url("webbg.jpg");
+}
 
 /* Style the footer */
 footer {
