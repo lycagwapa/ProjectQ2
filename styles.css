@@ -105,7 +105,7 @@ header {
 
 /*Webpage 1: Home Page*/
 body.index-page {
-    background-color: #ababab
+    background-image: url("webbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -114,7 +114,7 @@ body.index-page {
 
 /* Webpage 2: Tutorial Page */
 body.tutorial-page {
-    background-color: #ababab;
+    background-image: url("webbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -123,7 +123,7 @@ body.tutorial-page {
 
 /* Style the container for the navigation links */
 .navigation-box {
-    background-color: #f0f0f0;
+    background-color: #ababab
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -180,7 +180,7 @@ button:hover {
 
 /* Webpage 3: Search Results Page */
 body.search-results-page {
-    background-color: #fff;
+    background-image: url("webbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -191,7 +191,7 @@ body.search-results-page {
 
 */Webpage 4: About Us Page*/
 body.about-us-page {
-    background-color: #ababab;
+    background-image: url("webbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -200,7 +200,7 @@ body.about-us-page {
 
 */Webpage 5: Privacy Policy Page*/
 body.privacy-policy-page {
-    background-color: #ababab;
+    background-image: url("webbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
