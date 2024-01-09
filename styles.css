@@ -84,7 +84,7 @@ header {
     display: inline-block;
     width: 32px;
     height: 32px;
-    background-image: url('bg2.jpg'); /* Replace with your sprite image */
+    background-image: url('icon.jpg'); /* Replace with your sprite image */
     background-repeat: no-repeat;
 }
 
