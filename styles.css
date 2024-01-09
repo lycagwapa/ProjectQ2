@@ -40,7 +40,7 @@ body {
 
 /* Style the container for the navigation links */
 .navigation-box {
-    background-color: #F2C6DE;
+    background-color: #DBCDF0;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -101,7 +101,7 @@ footer {
     display: inline-block;
     width: 32px;
     height: 32px;
-    background-image: url('social-icons-sprite.png'); /* Replace with your sprite image */
+    background-image: url("icon.jpg"); 
     background-repeat: no-repeat;
     transition: opacity 0.3s ease; /* Smooth transition for hover effect */
 }
