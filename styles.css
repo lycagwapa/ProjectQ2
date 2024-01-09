@@ -12,8 +12,8 @@ html, body {
 
 /* Basic styling for header and footer */
 header, footer {
-    background-color: #333;
-    color: #fff;
+    background-color: #E6B8B7;
+    color: #333;
     text-align: center;
     padding: 10px;
 }
@@ -32,23 +32,15 @@ main {
     }
 }
 
-
 body {
-    font-family: lucida console, verdana;
+    font-family: 'Lucida Console', 'Verdana', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
 /* Style the container for the navigation links */
 .navigation-box {
-    background-color: #FBCEB1;
+    background-color: #ABABAB;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -72,9 +64,34 @@ header {
 
 /* Additional styling for hover effect */
 .navigation-box ul li a:hover {
-    color: #828282;
+    color: #007BFF;
 }
 
+/* Style the forms */
+.form-container {
+    background-color: #F0F0F0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Webpage-specific styling */
+.index-page {
+    background-image: url("webbg.jpg");
+}
+
+/* Add styling for other webpages as needed */
+
+/* Style the footer */
+footer {
+    background-color: #E6B8B7;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the social icons */
 .social-icons {
     margin-top: 20px;
 }
@@ -84,8 +101,9 @@ header {
     display: inline-block;
     width: 32px;
     height: 32px;
-    background-image: url('icon.jpg'); /* Replace with your sprite image */
+    background-image: url('social-icons-sprite.png'); /* Replace with your sprite image */
     background-repeat: no-repeat;
+    transition: opacity 0.3s ease; /* Smooth transition for hover effect */
 }
 
 /* Positioning for Instagram icon */
@@ -101,165 +119,4 @@ header {
 /* Hover effect for social icons */
 .icon:hover {
     opacity: 0.8;
-}
-
-/*Webpage 1: Home Page*/
-body.index-page {
-    background-image: url("webbg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-/* Webpage 2: Tutorial Page */
-body.tutorial-page {
-    background-image: url("webbg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-/* Style the container for the navigation links */
-.navigation-box {
-    background-color: #ababab
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-/* Style the navigation links */
-.navigation-box ul {
-    list-style: none;
-    padding: 0;
-}
-
-.navigation-box ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.navigation-box ul li a {
-    text-decoration: none;
-    color: #333;
-}
-
-/* Additional styling for hover effect */
-.navigation-box ul li a:hover {
-    color: #007bff;
-}
-
-/* Style the search container */
-.search-container {
-    text-align: center;
-    margin: 20px;
-}
-
-.search-form {
-    display: inline-block;
-}
-
-input[type="text"] {
-    padding: 10px;
-    font-size: 16px;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #3d3d3d;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #000000;
-    color: #fff;
-}
-
-/* Webpage 3: Search Results Page */
-body.search-results-page {
-    background-image: url("webbg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    margin: 0;
-    font-family: lucida console, verdana;
-}
-
-*/Webpage 4: About Us Page*/
-body.about-us-page {
-    background-image: url("webbg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-*/Webpage 5: Privacy Policy Page*/
-body.privacy-policy-page {
-    background-image: url("webbg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-/* Style the retrieved images container */
-.image-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 20px;
-    padding: 20px;
-    margin: 20px;
-}
-
-/* Style each image container */
-.image {
-    border: 1px solid #ccc;
-    padding: 10px;
-    background-color: #fff;
-    text-align: center;
-}
-
-/* Style the footer */
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
-
-/* Style the login section */
-.login-section {
-    margin-top: 20px;
-}
-
-.login-section form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.login-section label {
-    margin: 10px 0;
-}
-
-.login-section input {
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-.login-section button {
-    padding: 10px 20px;
-    background-color: #727272;
-    color: #fff;
-    border: 1px solid black;
-    cursor: pointer;
-}
-
-.login-section button:hover {
-    background-color: #393939;
 }
