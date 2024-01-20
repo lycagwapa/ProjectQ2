@@ -66,10 +66,18 @@ body {
 .navigation-box ul li a:hover {
     color: #007BFF;
 }
+/*style search*/
+.search-container {
+    background-color: #F88379;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
 
 /* Style the forms */
 .form-container {
-    background-color: #F0F0F0;
+    background-color: #F88379;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
